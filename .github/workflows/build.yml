@@ -12,7 +12,7 @@ jobs:
         include:
           - os: windows-latest
             build_type: Release
-            enable_ui:on
+            enable_ui: on
     steps:
     - uses: actions/checkout@v4
       with:
