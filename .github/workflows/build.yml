@@ -110,7 +110,7 @@ jobs:
         cd tests
         $XVFB bash run-tests.sh
     - name: download aseprite to local machine
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with: 
         path: |
           D:/aseprite/data
